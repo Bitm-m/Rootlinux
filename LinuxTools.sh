@@ -122,8 +122,7 @@ Root_sh(){
 
 
 menu(){
-    clear
-    check_status
+
     echo "#############################################################"
     echo -e "#                   ${RED}Misaka Linux Toolbox${PLAIN}                      #"
     echo -e "# ${GREEN}作者${PLAIN}: Misaka 的小姐妹                                     #"
@@ -164,5 +163,6 @@ menu(){
 }
 
 
-
+clear
+check_status
 menu
