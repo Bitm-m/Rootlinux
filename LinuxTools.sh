@@ -40,8 +40,6 @@ done
 
 
 
-
-
 check_status(){
     yellow "正在检查VPS系统状态..."
     if [[ -z $(type -P curl) ]]; then
@@ -166,6 +164,6 @@ menu(){
 
 
 
-
+clear
 check_status
 menu
