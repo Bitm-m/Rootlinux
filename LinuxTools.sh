@@ -122,7 +122,8 @@ Root_sh(){
     green "用户名：root"
     green "密码：$password"
     yellow "请妥善保存好登录信息！然后重启VPS确保设置已保存！"
-
+    echo ""  
+    
     read -rp " 任意键回主菜单" menuInput
     case $menuInput in
             *)clear && menu ;;
