@@ -168,7 +168,7 @@ menu(){
         # 4) menu4 ;;
         # 5) menu5 ;;
 	# 9) wget -N https://raw.githubusercontent.com/misaka-gh/MisakaLinuxToolbox/master/MisakaToolbox.sh && chmod +x MisakaToolbox.sh && bash MisakaToolbox.sh ;;
-        *) exit 1 ;;
+        *) clear && exit 1 ;;
     esac
 }
 
