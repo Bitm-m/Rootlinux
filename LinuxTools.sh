@@ -77,11 +77,15 @@ open_ports(){
     netfilter-persistent save 2>/dev/null
     green "VPS的防火墙端口已放行！"
     echo ""  
-    echo -e "${YELLOW}1秒进入主菜单${YELLOW}"
-    echo "" 
-    sleep 1s 
-
-    menu
+    # echo -e "${YELLOW}1秒进入主菜单${YELLOW}"
+    # echo "" 
+    # sleep 1s 
+    # menu
+    
+    read -rp " 任意键回主菜单" menuInput
+    case $menuInput in
+            *)clear && menu ;;
+    esac
 
 }
 
@@ -118,6 +122,11 @@ Root_sh(){
     green "用户名：root"
     green "密码：$password"
     yellow "请妥善保存好登录信息！然后重启VPS确保设置已保存！"
+
+    read -rp " 任意键回主菜单" menuInput
+    case $menuInput in
+            *)clear && menu ;;
+    esac
 }
 
 
@@ -166,3 +175,4 @@ menu(){
 clear
 check_status
 menu
+
