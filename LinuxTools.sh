@@ -34,7 +34,6 @@ for ((int=0; int<${#REGEX[@]}; int++)); do
 done
 
 [[ -z $SYSTEM ]] && red "脚本暂时不支持VPS的当前系统，请使用主流操作系统" && exit 1
-[[ $EUID -ne 0 ]] && red "注意：请在root用户下运行脚本" && exit 1
 [[ ! -f /etc/ssh/sshd_config ]] && sudo ${PACKAGE_UPDATE[int]} && sudo ${PACKAGE_INSTALL[int]} openssh-server
 [[ -z $(type -P curl) ]] && sudo ${PACKAGE_UPDATE[int]} && sudo ${PACKAGE_INSTALL[int]} curl
 
