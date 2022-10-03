@@ -124,7 +124,7 @@ Root_sh(){
 menu(){
 
     echo "#############################################################"
-    echo -e "#                   ${RED}Misaka Linux Toolbox${PLAIN}                      #"
+    echo -e "#                   ${RED}Misaka Linux Toolbox${PLAIN}                     #"
     echo -e "# ${GREEN}作者${PLAIN}: Misaka 的小姐妹                                     #"
     echo -e "# ${GREEN}网址${PLAIN}: https://owo.misaka.rest                             #"
     echo -e "# ${GREEN}论坛${PLAIN}: https://vpsgo.co                                    #"
