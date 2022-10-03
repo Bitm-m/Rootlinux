@@ -151,13 +151,13 @@ menu(){
     case $menuInput in
         1) open_ports ;;
         2) Root_sh ;;
-
+        9) wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh ;;
         # 1) menu1 ;;
         # 2) menu2 ;;
         # 3) menu3 ;;
         # 4) menu4 ;;
         # 5) menu5 ;;
-		# 9) wget -N https://raw.githubusercontent.com/misaka-gh/MisakaLinuxToolbox/master/MisakaToolbox.sh && chmod +x MisakaToolbox.sh && bash MisakaToolbox.sh ;;
+	# 9) wget -N https://raw.githubusercontent.com/misaka-gh/MisakaLinuxToolbox/master/MisakaToolbox.sh && chmod +x MisakaToolbox.sh && bash MisakaToolbox.sh ;;
         *) exit 1 ;;
     esac
 }
