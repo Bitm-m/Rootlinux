@@ -9,6 +9,7 @@
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x MisakaToolbox.sh && bash LinuxTools.sh
 ```
 
-
-
+```shell
+bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/blob/main/LinuxTools.sh)
+```
 
