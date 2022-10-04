@@ -188,7 +188,6 @@ menu(){
     esac
 }
 
-
 clear
 check_status
 menu
