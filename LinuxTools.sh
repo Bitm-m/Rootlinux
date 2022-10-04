@@ -142,6 +142,11 @@ v6_dns64(){
         red "非纯IPv6 VPS，设置DNS64服务器失败！"
     fi
     wg-quick up wgcf 2>/dev/null
+    
+    read -rp " 任意键回主菜单" menuInput
+    case $menuInput in
+            *)clear && menu ;;
+    esac
 }
 
 
@@ -161,7 +166,7 @@ menu(){
     echo ""
     echo -e " ${GREEN}1.${PLAIN} 开放系统防火墙端口"
     echo -e " ${GREEN}2.${PLAIN} 修改登录方式为 root + 密码"
-    echo -e " ${GREEN}3.${PLAIN} 设置Dns64"
+    echo -e " ${GREEN}3.${PLAIN} 纯IPv6 VPS设置DNS64服务器"
     # echo -e " ${GREEN}4.${PLAIN} 性能测试"
     # echo -e " ${GREEN}5.${PLAIN} VPS探针"
     echo " -------------"
