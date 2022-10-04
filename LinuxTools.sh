@@ -131,6 +131,21 @@ Root_sh(){
 }
 
 
+v6_dns64(){
+    wg-quick down wgcf 2>/dev/null
+    v66=`curl -s6m8 https://ip.gs -k`
+    v44=`curl -s4m8 https://ip.gs -k`
+    if [[ -z $v44 && -n $v66 ]]; then
+        echo -e "nameserver 2a01:4f8:c2c:123f::1" > /etc/resolv.conf
+        green "设置DNS64服务器成功！"
+    else
+        red "非纯IPv6 VPS，设置DNS64服务器失败！"
+    fi
+    wg-quick up wgcf 2>/dev/null
+}
+
+
+
 menu(){
 
     echo "#############################################################"
@@ -146,7 +161,7 @@ menu(){
     echo ""
     echo -e " ${GREEN}1.${PLAIN} 开放系统防火墙端口"
     echo -e " ${GREEN}2.${PLAIN} 修改登录方式为 root + 密码"
-    # echo -e " ${GREEN}3.${PLAIN} 节点相关"
+    echo -e " ${GREEN}3.${PLAIN} 设置Dns64"
     # echo -e " ${GREEN}4.${PLAIN} 性能测试"
     # echo -e " ${GREEN}5.${PLAIN} VPS探针"
     echo " -------------"
@@ -161,6 +176,7 @@ menu(){
     case $menuInput in
         1) open_ports ;;
         2) Root_sh ;;
+        3) v6_dns64 ;;
         9) wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh ;;
         # 1) menu1 ;;
         # 2) menu2 ;;
