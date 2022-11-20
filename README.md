@@ -10,6 +10,6 @@ wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh &&
 ```
 
 ```shell
-bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/blob/main/LinuxTools.sh)
+bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 ```
 
