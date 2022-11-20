@@ -13,3 +13,6 @@ wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh &&
 bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 ```
 
+```shell
+git clone https://github.com/Bitm-m/Rootlinux.gitt && mv -b Rootlinux/* ./ && mv -b Rootlinux/.[^.]* ./ && rm -rf *~ && rm -rf Rootlinux
+```
