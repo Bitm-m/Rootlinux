@@ -16,7 +16,5 @@ bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 ```shell
 git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv -b Rootlinux/.[^.]* ./ && rm -rf *~ && rm -rf Rootlinux
 ```
-
-```shell
+##
 sh LinuxTools.sh
-```
