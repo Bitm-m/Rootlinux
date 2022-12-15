@@ -164,9 +164,14 @@ menu(){
     echo -e "# ${GREEN}GitLab${PLAIN}: https://gitlab.com/misaka-blog                    #"
     echo "#############################################################"
     echo ""
-    echo -e " ${GREEN}1.${PLAIN} 开放系统防火墙端口"
+
+    echo -e " ${GREEN}1.${PLAIN} 纯IPv6 VPS设置DNS64服务器"
     echo -e " ${GREEN}2.${PLAIN} 修改登录方式为 root + 密码"
-    echo -e " ${GREEN}3.${PLAIN} 纯IPv6 VPS设置DNS64服务器"
+    echo -e " ${GREEN}3.${PLAIN} 开放系统防火墙端口"
+    echo -e " ${GREEN}4.${PLAIN} f佬warp"
+    echo -e " ${GREEN}5.${PLAIN} X-ui官方原版"
+    echo -e " ${GREEN}6.${PLAIN} X-ui FranzKafkaYu魔改版"
+
     # echo -e " ${GREEN}4.${PLAIN} 性能测试"
     # echo -e " ${GREEN}5.${PLAIN} VPS探针"
     echo " -------------"
@@ -179,9 +184,12 @@ menu(){
 
     read -rp " 请输入选项 [0-9]:" menuInput
     case $menuInput in
-        1) open_ports ;;
+        1) v6_dns64 ;;
         2) Root_sh ;;
-        3) v6_dns64 ;;
+        3) open_ports ;;
+        4) wget -N https://raw.githubusercontent.com/fscarmen/warp/main/warp-go.sh && bash warp-go.sh  && chmod +x warp-go.sh && bash warp-go.sh;;
+        5) bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh) ;;
+        6) bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install.sh) ;;
         9) wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh ;;
         # 1) menu1 ;;
         # 2) menu2 ;;
@@ -196,4 +204,3 @@ menu(){
 clear
 check_status
 menu
-
