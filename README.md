@@ -20,5 +20,3 @@ bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv -b Rootlinux/.[^.]* ./ && rm -rf *~ && rm -rf Rootlinux
 ```
 
-sh LinuxTools.sh
-
