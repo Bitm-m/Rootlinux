@@ -20,3 +20,4 @@ bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv -b Rootlinux/.[^.]* ./ && rm -rf *~ && rm -rf Rootlinux
 ```
 
+#echo -e "nameserver 2a01:4f8:c2c:123f::1" > /etc/resolv.conf
