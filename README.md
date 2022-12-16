@@ -8,6 +8,9 @@
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh -O LT.sh && chmod +x LT.sh && bash LT.sh
 ```
 
+```shell
+https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/xray.sh chmod +x xray.sh && bash xray.sh
+```
 
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh
 
