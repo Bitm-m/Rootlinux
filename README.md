@@ -9,7 +9,7 @@ wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh -O
 ```
 
 ```shell
-wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/xray.sh chmod +x xray.sh && bash xray.sh
+wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/xray.sh && chmod +x xray.sh && bash xray.sh
 ```
 
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh
