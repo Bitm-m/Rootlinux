@@ -12,16 +12,14 @@ wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh -O
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/xray.sh && chmod +x xray.sh && bash xray.sh
 ```
 
+
+```shell
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh && chmod +x LinuxTools.sh && bash LinuxTools.sh
-
-
 
 bash <(curl -Ls https://github.com/Bitm-m/Rootlinux/main/LinuxTools.sh)
 
-
-
 git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv -b Rootlinux/.[^.]* ./ && rm -rf *~ && rm -rf Rootlinux
-
+```
 
 ## echo -e "nameserver 2a01:4f8:c2c:123f::1" > /etc/resolv.conf
 
