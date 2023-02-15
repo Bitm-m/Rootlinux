@@ -28,4 +28,5 @@ curl -L https://github.com/libsgh/PanIndex/releases/download/v3.1.1/PanIndex-lin
 tar -zxvf arthas.tar.gz
 rm -f tar -zxvf arthas.tar.gz
 rm -f arthas.tar.gz
+./PanIndex-linux-musl-amd64
 ```
