@@ -23,10 +23,19 @@ git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv 
 
 ## echo -e "nameserver 2a01:4f8:c2c:123f::1" > /etc/resolv.conf
 
+## Panindex
 ```shell
 curl -L https://github.com/libsgh/PanIndex/releases/download/v3.1.1/PanIndex-linux-amd64.tar.gz --output arthas.tar.gz
 tar -zxvf arthas.tar.gz
 rm -f arthas.tar.gz
 chmod +x ./PanIndex-linux-amd64.tar.gz
 ./PanIndex-linux-amd64
+```
+## Alist
+```shell
+curl -L https://github.com/alist-org/alist/releases/download/v3.11.0/alist-linux-amd64.tar.gz --output arthas.tar.gz
+tar -zxvf arthas.tar.gz
+rm -f arthas.tar.gz
+chmod +x ./alist-linux-amd64.tar.gz
+./alist-linux-amd64
 ```
