@@ -27,4 +27,5 @@ git clone https://github.com/Bitm-m/Rootlinux.git && mv -b Rootlinux/* ./ && mv 
 curl -L https://github.com/libsgh/PanIndex/releases/download/v3.1.1/PanIndex-linux-musl-amd64.tar.gz --output arthas.tar.gz
 tar -zxvf arthas.tar.gz
 rm -f tar -zxvf arthas.tar.gz
+rm -f arthas.tar.gz
 ```
