@@ -2,7 +2,6 @@
 
 支持CentOS、Debian、Ubuntu等系统的各大厂商的VPS。一个命令，修改登录方式为root+密码、并自定义SSH端口
 
-
 ## 使用方法
 ```shell
 wget -N https://raw.githubusercontent.com/Bitm-m/Rootlinux/main/LinuxTools.sh -O LT.sh && chmod +x LT.sh && bash LT.sh
@@ -41,13 +40,11 @@ chmod +x ./alist-linux-amd64.tar.gz
 ./alist-linux-amd64
 ```
 
-
-
 ### Special sponsors
 
 - [Replit--Root](https://github.com/techcode1001/replit_root)
 - [简易Web-ssh](https://github.com/Jrohy/webssh)
-
+- [Web-笔记](https://github.com/usememos/memos)
 
 
 
