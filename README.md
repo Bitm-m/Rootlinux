@@ -40,3 +40,14 @@ rm -f arthas.tar.gz
 chmod +x ./alist-linux-amd64.tar.gz
 ./alist-linux-amd64
 ```
+
+
+
+### Special sponsors
+
+- [找资源 - 阿里云盘资源搜索引擎](https://zhaoziyuan.la/)
+- [KinhDown 百度云盘不限速下载！永久免费！已稳定运行3年！非常可靠！Q群 -> 786799372](https://kinhdown.com)
+- [JetBrains: Essential tools for software developers and teams](https://www.jetbrains.com/)
+
+
+
