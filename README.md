@@ -38,6 +38,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [简易Web-ssh](https://github.com/Jrohy/webssh)
 - [Web-笔记](https://github.com/usememos/memos)
 - [Misaka-blog](https://github.com/Misaka-blog/replit-xray)
+- [青龙](https://github.com/whyour/qinglong)
 
 
 
