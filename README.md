@@ -39,6 +39,6 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [Web-笔记](https://github.com/usememos/memos)
 - [Misaka-blog](https://github.com/Misaka-blog/replit-xray)
 - [青龙](https://github.com/whyour/qinglong)
-
+- [有云转晴](https://www.yyzq.cf)
 
 
