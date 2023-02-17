@@ -34,7 +34,8 @@ chmod +x ./alist-linux-amd64.tar.gz
 
 ### Special sponsors
 
-- [Replit--Root](https://github.com/techcode1001/replit_root) - [简易Web-ssh](https://github.com/Jrohy/webssh)
+- [Replit--Root](https://github.com/techcode1001/replit_root) 
+- [简易Web-ssh](https://github.com/Jrohy/webssh)
 - [Web-笔记](https://github.com/usememos/memos)
 - [Misaka-blog](https://github.com/Misaka-blog/replit-xray)
 - [青龙](https://github.com/whyour/qinglong)
