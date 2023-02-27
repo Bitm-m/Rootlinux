@@ -40,6 +40,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [Misaka-blog](https://github.com/Misaka-blog/replit-xray)
 - [青龙](https://github.com/whyour/qinglong)
 - [freenom续期](https://github.com/luolongfei/freenom)
+- [Workes续期](https://github.com/PencilNavigator/freenom-workers/blob/main/worker.js)
 - [有云转晴](https://www.yyzq.cf)
 
 
