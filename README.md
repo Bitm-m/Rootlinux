@@ -39,7 +39,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [Web-笔记](https://github.com/usememos/memos)
 - [Misaka-blog](https://github.com/Misaka-blog/replit-xray)
 - [青龙](https://github.com/whyour/qinglong)
-- [freenom续期](- [有云转晴](https://github.com/luolongfei/freenom)
+- [freenom续期](- [有云转晴](https://github.com/luolongfei/freenom)]
 - [有云转晴](https://www.yyzq.cf)
 
 
