@@ -42,6 +42,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [freenom续期](https://github.com/luolongfei/freenom)
 - [freenoom-Workes续期](https://github.com/PencilNavigator/freenom-workers/blob/main/worker.js)
 - [E5-Workes续期](https://github.com/M3chD09/Cloudflare-Workers-E5Renew)
+- [hexo-buttery](https://github.com/jerryc127/hexo-theme-butterfly)
 - [有云转晴](https://www.yyzq.cf)
 
 
