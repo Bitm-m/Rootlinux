@@ -1,16 +1,6 @@
 
 <h4 align="center">通过Cloudflare Workers自动续期Freenom域名(.cf .ga .gq .ml .tk)。</h4>
 
-<p align="center">
-  <a href="https://github.com/PencilNavigator/Freenom-Workers/blob/main/README.md">English README</a>
-  •
-  <a href="https://github.com/PencilNavigator/Freenom-Workers/issues">Issues</a>
-  •
-  <a href="https://github.com/PencilNavigator/Freenom-Workers/Wiki">Wiki</a>
-  •
-  <a href="https://github.com/PencilNavigator/Freenom-Workers/discussions" target="_blank">Discussions</a>
-</p>
-<p align="center">
  喜欢这个项目？给颗Star吧！
 </p>
 
