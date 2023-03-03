@@ -29,7 +29,7 @@ curl -L https://github.com/alist-org/alist/releases/download/v3.11.0/alist-linux
 tar -zxvf arthas.tar.gz
 rm -f arthas.tar.gz
 chmod +x ./alist-linux-amd64.tar.gz
-./alist-linux-amd64
+./alist server --no-prefix
 ```
 
 ### Special sponsors
