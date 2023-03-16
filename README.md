@@ -44,6 +44,8 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [E5-Workes续期](https://github.com/M3chD09/Cloudflare-Workers-E5Renew)
 - [hexo-buttery](https://github.com/jerryc127/hexo-theme-butterfly)
 - [有云转晴](https://www.yyzq.cf)
+- [AD-Rules](https://github.com/Cats-Team/AdRules)
+- [AD-Rules](https://github.com/DoingDog/rconvert)
 
 
 
