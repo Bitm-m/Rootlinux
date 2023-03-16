@@ -46,6 +46,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [有云转晴](https://www.yyzq.cf)
 - [AD-Rules](https://github.com/Cats-Team/AdRules)
 - [AD-Rules](https://github.com/DoingDog/rconvert)
+- [AD-Rules](https://github.com/DoingDog/XXKiller)
 
 
 
