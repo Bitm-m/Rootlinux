@@ -5,8 +5,7 @@ const LOGIN_URL = `${FREENOM}/dologin.php`
 const DOMAIN_STATUS_URL = `${FREENOM}/domains.php?a=renewals`
 const RENEW_REFERER_URL = `${FREENOM}/domains.php?a=renewdomain`
 const RENEW_DOMAIN_URL = `${FREENOM}/domains.php?submitrenewals=true`
-
-
+var ReturnMessageTitle="";
    
 
 // default headers
@@ -74,7 +73,7 @@ async function getDomainInfo() {
 async function renewDomains(domainInfo) {
    const token = domainInfo.token
    const GetDataI = await GetDataInfo()
-	var ReturnMessageTitle="";
+
 	ReturnMessageTitle +=`💖💖Freenoom续期脚本💖💖\n`
 	ReturnMessageTitle +=`💸💸💸${GetDataI}💸💸💸\n`
    for (const domain in domainInfo.domains) {
@@ -100,7 +99,7 @@ async function renewDomains(domainInfo) {
       }
    }
    
-      await sendMessage(ReturnMessageTitle);
+      
    
 }
 
@@ -113,6 +112,7 @@ async function handleSchedule(scheduledDate) {
    console.log('token', domainInfo.token)
    console.log('domains', domainInfo.domains)
    await renewDomains(domainInfo)
+   await sendMessage(ReturnMessageTitle);
 }
 
 addEventListener('scheduled', (event) => {
