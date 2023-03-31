@@ -47,6 +47,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [AD-Rules](https://github.com/Cats-Team/AdRules)
 - [AD-Rules](https://github.com/DoingDog/rconvert)
 - [AD-Rules](https://github.com/DoingDog/XXKiller)
+- [cf-page](https://github.com/DoingDog/XXKiller)
 
 
 
