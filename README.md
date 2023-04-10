@@ -49,6 +49,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [AD-Rules](https://github.com/DoingDog/XXKiller)
 - [cf-page](https://github.com/DoingDog/XXKiller)
 - [1Panel](https://github.com/1Panel-dev/1Panel)
+- [验证](https://github.com/orange-resource/verify)
 
 
 
