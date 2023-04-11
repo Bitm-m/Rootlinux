@@ -50,6 +50,8 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [cf-page](https://github.com/DoingDog/XXKiller)
 - [1Panel](https://github.com/1Panel-dev/1Panel)
 - [验证](https://github.com/orange-resource/verify)
+- [Android的input命令](https://github.com/wziwen/EventInject)
+- [adb自动化脚本](https://github.com/smileyixi/adb-script)
 
 
 
