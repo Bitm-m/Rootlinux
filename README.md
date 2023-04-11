@@ -52,6 +52,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [验证](https://github.com/orange-resource/verify)
 - [Android的input命令](https://github.com/wziwen/EventInject)
 - [adb自动化脚本](https://github.com/smileyixi/adb-script)
+- [TapClick，一款居于Android无障碍服务的自动化点击工具](https://github.com/LGH1996/ADGO)
 
 
 
