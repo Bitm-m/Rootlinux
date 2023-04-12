@@ -13,13 +13,34 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity {
-    
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button call=(Button)findViewById(R.id.button2);
+
+
+
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        clipboard.addPrimaryClipChangedListener(new ClipboardManager.OnPrimaryClipChangedListener() {
+            @Override
+            public void onPrimaryClipChanged() {
+                // 剪贴板内容已更改
+                ClipData clipData = clipboard.getPrimaryClip();
+                if (clipData != null && clipData.getItemCount() > 0) {
+                    ClipData.Item item = clipData.getItemAt(0);
+                    String text = item.getText().toString();
+                    System.out.println("剪贴板内容已更改：" + text);
+                }
+            }
+        });
+
+
+
+
+
         call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
