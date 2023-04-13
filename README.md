@@ -48,12 +48,12 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [AD-Rules](https://github.com/DoingDog/rconvert)
 - [AD-Rules](https://github.com/DoingDog/XXKiller)
 - [cf-page](https://github.com/DoingDog/XXKiller)
-- [1Panel](https://github.com/1Panel-dev/1Panel)
-- [验证](https://github.com/orange-resource/verify)
-- [Android的input命令](https://github.com/wziwen/EventInject)
+- [1Panel-XX](https://github.com/1Panel-dev/1Panel)
+- [验证-XX](https://github.com/orange-resource/verify)
+- [Android的input命令-XX](https://github.com/wziwen/EventInject)
 - [adb自动化脚本](https://github.com/smileyixi/adb-script)
-- [TapClick，一款居于Android无障碍服务的自动化点击工具](https://github.com/LGH1996/ADGO)
-- [starRTC，即时通讯(IM)系统](https://github.com/starrtc/starrtc-android-demo)
+- [TapClick，一款居于Android无障碍服务的自动化点击工具-XX](https://github.com/LGH1996/ADGO)
+- [starRTC，即时通讯(IM)系统-XX](https://github.com/starrtc/starrtc-android-demo)
 - [SimpleHook](https://github.com/littleWhiteDuck/SimpleHook)
 
 
