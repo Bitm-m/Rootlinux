@@ -55,6 +55,8 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [TapClick，一款居于Android无障碍服务的自动化点击工具-XX](https://github.com/LGH1996/ADGO)
 - [starRTC，即时通讯(IM)系统-XX](https://github.com/starrtc/starrtc-android-demo)
 - [SimpleHook](https://github.com/littleWhiteDuck/SimpleHook)
+- [java实现socket通信](https://github.com/xiangfangsong/Java-socket)
+
 
 
 
