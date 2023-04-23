@@ -1,0 +1,56 @@
+import requests
+import json
+import base64
+
+# Github 访问令牌
+ACCESS_TOKEN = "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"
+
+# 仓库拥有者和仓库名称
+OWNER = "Bitm-m"
+REPO = "gitlab-backup"
+
+# 要上传的文件名和内容
+FILE_NAME = "example.txt"
+FILE_CONTENT = "11111.2"
+
+# 将文件内容编码为 base64 字符串
+content_base64 = base64.b64encode(FILE_CONTENT.encode('utf-8')).decode('utf-8')
+
+# 构造 API 请求的 URL 和数据
+url = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/{FILE_NAME}"
+headers = {"Authorization": f"token {ACCESS_TOKEN}"}
+
+# 获取文件的信息
+response = requests.get(url, headers=headers)
+
+if response.status_code == 200:
+    # 文件已经存在，更新文件
+    file_info = response.json()
+    data = {
+        "message": "Update a file via API",
+        "committer": {
+            "name": "Your Name",
+            "email": "your_email@example.com"
+        },
+        "content": content_base64,
+        "sha": file_info['sha']
+    }
+    response = requests.put(url, headers=headers, data=json.dumps(data))
+else:
+    # 文件不存在，创建文件
+    data = {
+        "message": "Upload a file via API",
+        "committer": {
+            "name": "Your Name",
+            "email": "your_email@example.com"
+        },
+        "content": content_base64
+    }
+    response = requests.put(url, headers=headers, data=json.dumps(data))
+
+# 处理 API 响应
+if response.status_code == 201 or response.status_code == 200:
+    print("File uploaded successfully.")
+else:
+    print("Error uploading file.")
+    print(response.json())
