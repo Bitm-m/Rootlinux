@@ -1,0 +1,11 @@
+#!/bin/bash
+# your commands here
+while ! ping -c1 baidu.com &> /dev/null; do
+    # 如果网络不可用，则执行相应的命令
+    	systemctl stop ModemManager 
+	qmicli -d /dev/wwan0qmi0 --uim-sim-power-off=1 
+	qmicli -d /dev/wwan0qmi0 --uim-sim-power-on=1
+	systemctl start ModemManager
+    echo "网络不可用，执行命令..."
+    sleep 5
+done
