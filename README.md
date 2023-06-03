@@ -57,7 +57,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [SimpleHook](https://github.com/littleWhiteDuck/SimpleHook)
 - [java实现socket通信](https://github.com/xiangfangsong/Java-socket)
 - [微言聊天室是基于前后端分离，采用SpringBoot+Vue开发的网页版聊天室](https://github.com/JustCoding-Hai/subtlechat/tree/master)
-
+- [青龙备份](https://github.com/yjrqz777/ql)
 
 
 
