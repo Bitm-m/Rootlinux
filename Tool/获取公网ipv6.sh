@@ -34,7 +34,7 @@ non_empty_line_count=$((non_empty_line_count + 1))
 
 # 使用grep命令搜索文件中的内容
 if grep -q "$ipv6" "$filename"; then
-    echo "$non_empty_line_count与上次相隔$formatted_time ip未变化" >> "$filename"
+    echo "$non_empty_line_count与上次相隔 $formatted_time ip未变化"
 else
     echo "$non_empty_line_count与上次相隔$formatted_time ip发生了变化" >> "$filename"
     echo "$current_time  $ipv6  $ipv4" >> "$filename"
