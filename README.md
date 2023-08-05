@@ -59,6 +59,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [微言聊天室是基于前后端分离，采用SpringBoot+Vue开发的网页版聊天室](https://github.com/JustCoding-Hai/subtlechat/tree/master)
 - [青龙备份](https://github.com/yjrqz777/ql)
 - [Panindex](https://github.com/px-org/PanIndex)
+- [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
 
 
 
