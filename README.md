@@ -60,6 +60,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [青龙备份](https://github.com/yjrqz777/ql)
 - [Panindex](https://github.com/px-org/PanIndex)
 - [CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
+- [使用CloudflareSpeedTest工具优选IP后自动DDNS到Cloudflare]([https://github.com/XIU2/CloudflareSpeedTest](https://github.com/lee1080/CloudflareSpeedTestDDNS)https://github.com/lee1080/CloudflareSpeedTestDDNS)
 
 
 
