@@ -47,7 +47,6 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [AD-Rules](https://github.com/Cats-Team/AdRules)
 - [AD-Rules](https://github.com/DoingDog/rconvert)
 - [AD-Rules](https://github.com/DoingDog/XXKiller)
-- [cf-page](https://github.com/DoingDog/XXKiller)
 - [1Panel-XX](https://github.com/1Panel-dev/1Panel)
 - [验证-XX](https://github.com/orange-resource/verify)
 - [Android的input命令-XX](https://github.com/wziwen/EventInject)
@@ -64,5 +63,6 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [自动合并 Adblock 规则](https://github.com/lingeringsound/adblock_auto)
 - [clash-verge](https://github.com/zzzgydi/clash-verge)
 - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)
+- [clash-rules](https://github.com/Loyalsoldier/clash-rules)
 
 
