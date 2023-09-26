@@ -62,6 +62,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [使用CloudflareSpeedTest工具优选IP后自动DDNS到Cloudflare](https://github.com/lee1080/CloudflareSpeedTestDDNS)
 - [自动合并 Adblock 规则](https://github.com/lingeringsound/adblock_auto)
 - [clash-verge](https://github.com/zzzgydi/clash-verge)
+- [v2rayN](https://github.com/2dust/v2rayN)
 - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
 
