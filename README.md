@@ -65,5 +65,5 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [v2rayN](https://github.com/2dust/v2rayN)
 - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
-
+- [x-ui](https://github.com/vaxilu/x-ui)
 
