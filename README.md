@@ -66,4 +66,4 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
 - [x-ui](https://github.com/vaxilu/x-ui)
-
+- [Idm破解命令](https://github.com/lstprjct/IDM-Activation-Script)
