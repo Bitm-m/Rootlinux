@@ -67,3 +67,4 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
 - [x-ui](https://github.com/vaxilu/x-ui)
 - [Idm破解命令](https://github.com/lstprjct/IDM-Activation-Script)
+- [chromego_merge](https://github.com/vveg26/chromego_merge)
