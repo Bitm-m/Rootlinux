@@ -65,6 +65,7 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [v2rayN](https://github.com/2dust/v2rayN)
 - [ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid)
 - [clash-rules](https://github.com/Loyalsoldier/clash-rules)
+- [ios-clash-rules](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash)
 - [x-ui](https://github.com/vaxilu/x-ui)
 - [Idm破解命令](https://github.com/lstprjct/IDM-Activation-Script)
 - [chromego_merge](https://github.com/vveg26/chromego_merge)
