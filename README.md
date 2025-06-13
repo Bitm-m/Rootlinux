@@ -69,3 +69,4 @@ chmod +x ./alist-linux-amd64.tar.gz
 - [x-ui](https://github.com/vaxilu/x-ui)
 - [Idm破解命令](https://github.com/lstprjct/IDM-Activation-Script)
 - [chromego_merge](https://github.com/vveg26/chromego_merge)
+- [clash规则后端](https://github.com/zsokami/ACL4SSR)
